@@ -16,6 +16,7 @@ add_message_files(
   TrackingObjectMarker.msg
   TrackingObjectMarkerArray.msg
   Pose2DArray.msg
+  DroneSyn.msg
 )
 
 #catkin_python_setup()
