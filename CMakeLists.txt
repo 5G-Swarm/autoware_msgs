@@ -8,14 +8,14 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   geometry_msgs
   sensor_msgs
-  visualization_msgs
+  # visualization_msgs
   )
 
 add_message_files(
   FILES
-  TrackingObjectMarker.msg
-  TrackingObjectMarkerArray.msg
-  Pose2DArray.msg
+  # TrackingObjectMarker.msg
+  # TrackingObjectMarkerArray.msg
+  # Pose2DArray.msg
   DroneSyn.msg
 )
 
@@ -26,7 +26,7 @@ generate_messages(
   std_msgs
   sensor_msgs
   geometry_msgs
-  visualization_msgs
+  # visualization_msgs
 )
 
 catkin_package(
